@@ -15,4 +15,4 @@ to which you can send pull requests.
   solutions.  I am not in any way affiliated with the author or the
   publisher. Use them at your own risk.
 
-{% include_relative solutions.md %}
+{% include_relative chapter4.html %}
