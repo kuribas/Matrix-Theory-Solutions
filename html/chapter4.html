@@ -1,5 +1,31 @@
 <h2 id="chapter-4">Chapter 4</h2>
 <h3 id="section">4.5</h3>
 <ol style="list-style-type: decimal">
-<li>The vectors <span class="math">\(u_i = \frac{b^{(i)}}{\|{b^{(i)}}\|}\)</span> are orthogonal unit vectors.</li>
+<li></li>
+<li></li>
+<li><p>Substituting in (1):</p>
+<p><span class="math">\[
+ \begin{aligned}
+  (x, y) &amp;= \sum_{k=1}^n{\xi_k \overline{\eta_k}} =
+  \overline{\sum_{k=1}^n{\overline{\xi_k}{\eta_k}}} =
+  \overline{(y, x)} \\
+  (\lambda x, y) &amp;= \sum_{k=1}^n{\lambda \xi_k \overline{\eta_k}} =
+  \sum_{k=1}^n{\xi_k \overline{\overline{\lambda}\eta_k}} =
+  (x, \overline{\lambda} y) = 
+  \lambda \sum_{k=1}^n{\xi_k \overline{\eta_k}} =
+  \lambda (x, y) \\
+  (x + y, z) &amp;= \sum_{k=1}^n{(\xi_k + \eta_k) \overline{\zeta_k}} =
+  \sum_{k=1}^n{\xi_k \overline{\zeta_k}} + \sum_{k=1}^n{\eta_k 
+  \overline{\zeta_k}} = (x, z) + (y, z) \\
+  (x, x) &amp;= \sum_{k=1}^n{||\xi_k||^2} \geq 0\ \text{(0 only when x
+ is zero)}
+ \end{aligned}
+ \]</span></p>
+<p>The vectors <span class="math">\(u_i = \frac{b^{(i)}}{\|{b^{(i)}}\|}\)</span> are orthogonal unit vectors.</p></li>
+<li><p>Suppose the equation <span class="math">\(Ax = 0\)</span> has a solution <span class="math">\(x \neq 0\)</span>. Then for all rows <span class="math">\(i\)</span>:</p>
+<p><span class="math">\[
+   \sum_{j} \alpha_{ij}x_j = \sum_{j}x_j(a^j, a^i) = (\sum_{j}x_j
+   a^j, a^i) = 0
+ \]</span></p>
+<p>The vector <span class="math">\((\sum_{i}x_i a^i)\)</span> is perpendicular to all <span class="math">\(a^i\)</span>, so it is the zero vector. However since the <span class="math">\(a^i\)</span> are linearly indenpendent, all <span class="math">\(x_i\)</span> are zero. This is in contradiction with our assumption, so <span class="math">\(det A \neq 0\)</span>.</p></li>
 </ol>

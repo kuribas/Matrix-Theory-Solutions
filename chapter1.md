@@ -1,9 +1,6 @@
 ---
 published: true
 layout: default
-title: All Chapters
+title: Chapter 1
 ---
-
 {% include_relative html/chapter1.html %}
-
-{% include_relative html/chapter4.html %}
