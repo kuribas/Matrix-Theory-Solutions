@@ -30,7 +30,8 @@
   4. No. We can _reverse_ $a, b, \dots z$ using 13 interchanges
      $a\leftrightarrow z, b\leftrightarrow y, c\leftrightarrow x,
      \dots$, so $s(z, y, \dots, a) = (-1)^{13} = -1$.  But after $100$
-     interchanges we would have $s(z, y, \dots, a) = (-1)^{100} = 1$.
+     interchanges we would have $s(z, y, \dots, a) = (-1)^{100} = 1$,
+     which is a contradiction.
 
 ### 1.4
 

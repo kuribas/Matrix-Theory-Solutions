@@ -13,9 +13,9 @@
 	  \overline{\sum_{k=1}^n{\overline{\xi_k}{\eta_k}}} =
 	  \overline{(y, x)} \\
 	  (\lambda x, y) &= \sum_{k=1}^n{\lambda \xi_k \overline{\eta_k}} =
-	  \sum_{k=1}^n{\xi_k \overline{\overline{\lambda}\eta_k}} =
-	  (x, \overline{\lambda} y) = 
-	  \lambda \sum_{k=1}^n{\xi_k \overline{\eta_k}} =
+	  \sum_{k=1}^n{\xi_k \overline{\overline{\lambda}\eta_k}} = (x,
+	  \overline{\lambda} y) \\
+	  &= \lambda \sum_{k=1}^n{\xi_k \overline{\eta_k}} =
 	  \lambda (x, y) \\
 	  (x + y, z) &= \sum_{k=1}^n{(\xi_k + \eta_k) \overline{\zeta_k}} =
 	  \sum_{k=1}^n{\xi_k \overline{\zeta_k}} + \sum_{k=1}^n{\eta_k 
@@ -37,6 +37,18 @@
      $$
 
 	 The vector $(\sum_{i}x_i a^i)$ is perpendicular to all $a^i$, so
-     it is the zero vector.  However since the $a^i$ are linearly
+     it is the zero vector.
+
+     _proof,_ multiply each row by $\overline{x_i}$ and sum all rows:
+
+	 $$
+	   \begin{aligned}
+	   \overline{x_i}(\sum_{j}x_j a^j, a^i) &= (\sum_{j}x_j a^j, x_ia^i) = 0 \\
+	   (\sum_{j}x_j a^j, \sum_{i}x_i a^i) &= 0 \\
+	   \sum_{j}x_j a^j &= 0
+	   \end{aligned}
+     $$
+
+     However since the $a^i$ are linearly
      indenpendent, all $x_i$ are zero.  This is in contradiction
      with our assumption, so $det A \neq 0$.
